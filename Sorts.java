@@ -17,5 +17,20 @@ public class Sorts{
   data[i+1] = temp;
   }
   }}
+
+  /**selection sort of an int array. 
+*@postcondition The array will be modified such that the elements will be in increasing order.
+*@param data - the elements to be sorted.
+*/
+ public static void selectionSort(int[] data){ 
+ 
+ }
+
+ /**insertion sort of an int array. 
+*@postcondition The array will be modified such that the elements will be in increasing order.
+*@param data - the elements to be sorted.
+*/
+ public static void insertionSort(int[] data){
+ }
    
 }
