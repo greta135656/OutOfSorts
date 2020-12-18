@@ -12,6 +12,9 @@ public class easyTester {
   int[] number3 = {};
   Sorts.bubbleSort(number3);
   System.out.println(Arrays.toString(number3));
+  int[] number4 = {5,4,3,2,1,0,-1,-2,-3,-4,-5};
+  Sorts.bubbleSort(number4);
+  System.out.println(Arrays.toString(number4));
 
   }
 
