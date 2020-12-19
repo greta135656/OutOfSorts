@@ -23,7 +23,15 @@ public class Sorts{
 *@param data - the elements to be sorted.
 */
  public static void selectionSort(int[] data){ 
+ for (int i = 0; i < data.length-1; i++){
+ int smallest = data[i];
+ for (int j = 0; j < data.length; j++){
+ if (smallest > data[j])
+ smallest = data[j];
+ data[i] = smallest;
+ smallest = data[i];}
  
+ }
  }
 
  /**insertion sort of an int array. 
