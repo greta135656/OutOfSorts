@@ -7,7 +7,7 @@ public class Sorts{
   
   public static void bubbleSort(int[] data){ 
   boolean sorted = false;
-  for(int j = 0; j<data.length-1; j++){
+  for(int j = 0; j<data.length-1 && sorted == false; j++){
   sorted = true;
   for (int i = 0; i < data.length - j-1; i++)
   if (data[i] > data[i + 1]){
